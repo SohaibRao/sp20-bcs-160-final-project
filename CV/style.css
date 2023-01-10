@@ -1,0 +1,178 @@
+*{
+    font-family: Century Gothic;
+}
+
+.mainContainer{
+    display: flex;
+    
+}
+.column1{
+    background-color: rgb(43, 43, 43);
+    flex-grow: 1;
+    color: white;
+   width: 500px;
+   
+    
+    
+  
+}
+
+.column2{
+ 
+    flex-grow: 10;
+    
+}
+
+.profileimg{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+    box-shadow: 1px 2px 50px 20px black
+}
+
+.line{
+    background-color: #FECB00;
+    height: 2px;
+    width: 300px;
+}
+
+.eduation{
+  margin-top: 50px;
+  padding-left: 50px;
+}
+
+.eduation h2{
+    font-size: 20px;
+    font-family: Century Gothic;
+}
+
+.eduation ul li h3{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: Century Gothic;
+}
+
+.eduation ul li h4{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Century Gothic;
+}
+
+.eduation ul li{
+    line-height: 1px;
+}
+
+.contact-container{
+    display: flex;
+}
+
+.contact{
+  display: flex;
+  padding: 10px;
+  
+}
+
+.coloredcol{
+    background-color: #FECB00;
+    height: 70px;
+    width: 20%;
+   flex-grow: 2;
+
+}
+
+.datacol{
+    flex-grow: 5;
+    padding-left: 30px;
+    width: 70%;
+    background-color: rgb(50, 48, 48);
+}
+
+.datacol h2{
+    font-size: 20px;
+    font-family: Century Gothic;
+}
+
+.datacol p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Century Gothic;
+    line-height: 0.1px;
+}
+
+.nameContainer{
+    background-color: #FECB00;
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    margin-top: 80px;
+
+}
+
+.about{
+    margin: 60px;
+}
+
+.name{
+    margin: 60px;
+}
+
+.experience{
+    margin: 60px;
+}
+
+.exp-data{
+    display: flex;
+    justify-content: center;
+   
+    align-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+.exp-date{
+    flex-grow: 2;
+    justify-content: center;
+   
+    align-content: center;
+   
+}
+
+.exp-date h2{
+    font-size: 20px;
+}
+
+.exp-info{
+    flex-grow: 6;
+    justify-content: center;
+   
+    align-content: center;
+   
+}
+
+.skill{
+    margin: 60px;
+}
+
+.skill-data{
+    display: flex;
+}
+
+.skill-col1{
+    flex-grow: 1;
+}
+
+.skill-col2{
+    flex-grow: 1;
+}
+
+.skill-col1 h2{
+    padding-left: 100px;
+}
+
+.skill-col2 h2{
+    padding-left: 100px;
+}

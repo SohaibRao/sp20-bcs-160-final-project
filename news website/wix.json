@@ -1,0 +1,157 @@
+{
+    "reference": "3114f670-daf5-9ddf-d868-88b9c2a83213",
+    "tourDuration": "30 Min. ",
+    "city": "Berlin",
+    "previewTour": "wix:audio://v1/cf43b6_227839ef62f94c27bda1edf91f34f5b3.m4a/Preview_Tegel.m4a#duration=16",
+    "_id": "c4b22c07-0d00-4c6c-9e3d-f3e2c97109f8",
+    "_owner": "cf43b647-1224-4839-a3b6-6525bfa64af2",
+    "_createdDate": "Thu Nov 24 2022 02:28:18 GMT+0500 (Pakistan Standard Time)",
+    "link-tour-1-title": "/tour-1/flughafen-tegel",
+    "price": "5.99",
+    "audiolength": "15 Min.",
+    "_updatedDate": "Mon Nov 28 2022 17:00:09 GMT+0500 (Pakistan Standard Time)",
+    "characteristics": "Familienfreundlich",
+    "language": "Deutsch",
+    "navigation": {
+      "nodes": [
+        {
+          "type": "PARAGRAPH",
+          "id": "9hlj824240",
+          "nodes": [],
+          "paragraphData": {
+            "textStyle": {
+              "textAlignment": "AUTO"
+            },
+            "indentation": 0
+          }
+        },
+        {
+          "type": "IMAGE",
+          "id": "7799j24239",
+          "nodes": [],
+          "imageData": {
+            "containerData": {
+              "alignment": "CENTER",
+              "width": "[Object]",
+              "textWrap": true
+            },
+            "image": {
+              "src": "[Object]",
+              "width": 500,
+              "height": 500
+            }
+          }
+        },
+        {
+          "type": "PARAGRAPH",
+          "id": "nyage24241",
+          "nodes": [],
+          "paragraphData": {
+            "textStyle": {
+              "textAlignment": "AUTO"
+            },
+            "indentation": 0
+          }
+        },
+        {
+          "type": "HEADING",
+          "id": "d6uso476",
+          "nodes": [
+            {
+              "type": "TEXT",
+              "id": "",
+              "nodes": "[Array]",
+              "textData": "[Object]"
+            }
+          ],
+          "headingData": {
+            "level": 5,
+            "textStyle": {
+              "textAlignment": "AUTO"
+            },
+            "indentation": 0
+          }
+        },
+        {
+          "type": "PARAGRAPH",
+          "id": "ol5pp64108",
+          "nodes": [],
+          "paragraphData": {
+            "textStyle": {
+              "textAlignment": "AUTO"
+            },
+            "indentation": 0
+          }
+        },
+        {
+          "type": "ORDERED_LIST",
+          "id": "x58hlbyev49kk524539",
+          "nodes": [
+            {
+              "type": "LIST_ITEM",
+              "id": "o6ublbyev49kk524529",
+              "nodes": "[Array]"
+            },
+            {
+              "type": "LIST_ITEM",
+              "id": "h4ktjbyev49kk524531",
+              "nodes": "[Array]"
+            },
+            {
+              "type": "LIST_ITEM",
+              "id": "4wlmibyev49kk524533",
+              "nodes": "[Array]"
+            },
+            {
+              "type": "LIST_ITEM",
+              "id": "h96ubbyev49kk524535",
+              "nodes": "[Array]"
+            },
+            {
+              "type": "LIST_ITEM",
+              "id": "cnllxbyev49kk524537",
+              "nodes": "[Array]"
+            }
+          ],
+          "orderedListData": {
+            "indentation": 0
+          }
+        }
+      ],
+      "metadata": {
+        "version": 1,
+        "createdTimestamp": "Fri Nov 25 2022 17:30:33 GMT+0500 (Pakistan Standard Time)",
+        "updatedTimestamp": "Fri Nov 25 2022 17:30:33 GMT+0500 (Pakistan Standard Time)",
+        "id": "a7ed1c04-e53c-4cee-8fd8-ecdd0ba7ca57"
+      },
+      "documentStyle": {}
+    },
+    "fortbewegung": "Fuß, Fahrrad",
+    "title": "Flughafen Tegel",
+    "link-tour-all": "/tour/",
+    "tourstopps": "5 Stopps",
+    "distance": "0,5 km",
+    "beschreibunglang": "Warum Tegel jetzt Otto heißt und warum dort sogar Raketen abgefeuert wurden, erfahrt ihr in der Tour."
+  }
+
+
+
+
+
+
+
+
+
+
+  {
+    "_id": "e13cd428-5e2d-4b02-83dd-395c065bd40b",
+    "_owner": "cf43b647-1224-4839-a3b6-6525bfa64af2",
+    "_createdDate": "Thu Nov 24 2022 00:45:04 GMT+0500 (Pakistan Standard Time)",
+    "link-guide-1-title": "/guide-1/guidable",
+    "_updatedDate": "Thu Nov 24 2022 13:54:05 GMT+0500 (Pakistan Standard Time)",
+    "aboutme": "Mit guidable möchten wir die spannendsten Geschichten und euch dabei unterstützen jeden Ort neu zu erkunden. ",
+    "slogan": "Geschichten zum Entdecken",
+    "profileimage": "wix:image://v1/cf43b6_5be4933588924817b58f38ffb4a409c5~mv2.png/Logo_guidable_square.png#originWidth=370&originHeight=370",
+    "title": "guidable",
+    "link-guide-all": "/guide/"
+  }

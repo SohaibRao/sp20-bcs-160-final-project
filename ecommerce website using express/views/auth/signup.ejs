@@ -1,0 +1,103 @@
+<%- include('../includes/head.ejs') %>
+<link rel="stylesheet" href="/css/auth.css">
+</head>
+<body>
+
+    <%- include('../includes/navigation.ejs') %>
+
+    <main>
+        <% if(errorMessage) { %>
+            <div class="user_message user_mesage_error" ><%= errorMessage %></div>
+            <% } %>
+        <div class="container">
+            <div class="forms-container">
+              <div class="signin-signup">
+          
+                <form action="/signup" method="POST" class="sign-in-form">
+                  <h2 class="title">Sign Up </h2>
+                  <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="name" placeholder="Ypur Name" />
+                  </div>
+                  <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="email" placeholder="Email" />
+                  </div>
+                  <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="password" placeholder="Password" />
+                  </div>
+                  <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="confirmPassword" placeholder="Confirm Password" />
+                  </div>
+                  <button type="submit" value="Login" class="btn solid" >Sign up</button>
+                 
+                </form>
+          
+              </div>
+            </div>
+          
+            <!---------- Left Side Of Sign In Page --------->
+            <div class="panels-container">
+              <div class="panel left-panel">
+                <div class="content">
+                  <h3>New To Our Website ?</h3>
+                  <p>
+                    Click the Sign Up button to see the effect...
+                  </p>
+                  <button class="btn transparent" id="sign-up-btn">
+                    Sign up
+                  </button>
+                </div>
+                <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" class="image" alt="2nd Pic" />
+              </div>
+              <div class="panel right-panel">
+                <div class="content">
+                  <h3>One of us ?</h3>
+                  <p>
+                    Click the Sign In to see the effect
+                  </p>
+                  <button class="btn transparent" id="sign-in-btn">
+                    Sign in
+                  </button>
+                </div>
+                <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" class="image" alt="1 Pic" />
+              </div>
+          
+            </div>
+          </div>
+    
+
+
+          <script>
+            const sign_in_btn = document.querySelector("#sign-in-btn");
+const sign_up_btn = document.querySelector("#sign-up-btn");
+const solid_btn = document.querySelector(".btn.solid");
+const btn_sign_up = document.querySelector(".btn_sign_up");
+
+const container = document.querySelector(".container");
+
+solid_btn.addEventListener("click", () => {
+  container.classList.add("sign-up-mode");
+});
+
+btn_sign_up.addEventListener("click", () => {
+  container.classList.remove("sign-up-mode");
+});
+
+sign_up_btn.addEventListener("click", () => {
+  container.classList.add("sign-up-mode");
+});
+
+sign_in_btn.addEventListener("click", () => {
+  container.classList.remove("sign-up-mode");
+  solid_btn.classList.remove("sign-up-mode");
+});
+
+
+
+          </script>
+
+        </main>
+    <%- include('../includes/end.ejs') %>
