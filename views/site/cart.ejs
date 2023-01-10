@@ -1,0 +1,29 @@
+<a href="/" class="btn btn-info">Continue Shopping</a>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>Product Price</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <% for(var i=0;i<products.length;i++) {let product = products[i];%>
+            <tr>
+                <td><%=product.name  %> </td>
+                <td><%=product.price  %> </td>
+            </tr>
+            <% } %> 
+            <tfoot>
+                <tr>
+                    <td>Total:</td>
+                    <td><%=total  %> </td>
+                </tr>
+            </tfoot>
+    </tbody>
+</table>
+
+<form action="/create-order" method="POST">
+    <input type="hidden" value="<%= products._id %>" name="productId">
+    <button class="btn" type="submit">Order Now</button>
+</form>

@@ -1,0 +1,37 @@
+  <!-- Cart Start -->
+  <div class="container-fluid pt-5">
+    <div class="row px-xl-5">
+        <% if (orders.length <= 0) { %>
+            <h1>Nothing there!</h1>
+        <% } else { %>
+        <div class="col-lg-8 table-responsive mb-5">
+            <table class="table table-bordered text-center mb-0">
+                <% orders.forEach(order => { %>
+                    <h1>Order - # <%= order._id %></h1>
+                <thead class="bg-secondary text-dark">
+                    
+                    <tr>
+                        <th>Products</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody class="align-middle">
+                    <% order.products.forEach(p => { %>
+                    <tr>
+                        <td class="align-middle"><img src="img/product-1.jpg" alt="" style="width: 50px;"><%= p.product.name %></td>
+                        <td class="align-middle"><%= p.price %></td>
+                        <td class="align-middle"><%= p.quantity %></td>
+                        <td class="align-middle"><%= p.price %></td>  
+                    </tr>
+                    <% }); %>
+                </tbody>
+                <% }); %>
+            </table>
+        </div>
+        <% } %>
+ 
+    </div>
+</div>
+<!-- Cart End -->
